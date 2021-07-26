@@ -1,9 +1,9 @@
 import React, { useState, useLayoutEffect, useRef, useCallback } from 'react';
 import { Heading, Card, Flex, Box, Button } from 'rebass';
 import styled, { ThemeProvider } from 'styled-components/macro';
-// import { FaLink,  FaRandom } from 'react-icons/fa';
+// import {   FaRandom } from 'react-icons/fa';
 
-import {  FaGithub, FaUpload } from 'react-icons/fa';
+import {  FaLink, FaGithub, FaUpload } from 'react-icons/fa';
 import { saveSvgAsPng } from 'save-svg-as-png';
 import { useMedia } from 'use-media';
 
@@ -148,14 +148,16 @@ const App = () => {
               <FaUpload />
             </Button> 
 
-{/*             <Button
+             <Button
               variant="outline"
               title="Image From URL"
               ml={3}
               onClick={() => setUrlInputVisible(!urlInputVisible)}
             >
               <FaLink />
-            </Button> */}
+            </Button> 
+
+            
             {/* <Button
               variant="outline"
               onClick={() => setImageSrc(getRandomMeme(imageSrc))}
