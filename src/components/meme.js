@@ -31,7 +31,7 @@ const MemeAttributionText = styled(Text)`
   right: 0;
   color: #333;
   font-family: 'Oswald', sans-serif;
-  font-size: 9px;
+  font-size: 20px;
   font-weight: 400;
   background: rgba(255, 255, 255, 0.7);
   padding: 1px 2px;
