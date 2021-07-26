@@ -1,2 +1,3 @@
 export const websiteUrl = 'https://st6.io/';
-export const githubUrl = 'https://github.com/st6io/meme';
+export const githubUrl = 'https://github.com/DLLMCFH/meme-generator';
+
