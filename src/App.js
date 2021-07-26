@@ -1,7 +1,9 @@
 import React, { useState, useLayoutEffect, useRef, useCallback } from 'react';
 import { Heading, Card, Flex, Box, Button } from 'rebass';
 import styled, { ThemeProvider } from 'styled-components/macro';
-import { FaUpload, FaRandom, FaGithub, FaLink } from 'react-icons/fa';
+// import { FaLink,  FaRandom } from 'react-icons/fa';
+
+import {  FaGithub, FaUpload } from 'react-icons/fa';
 import { saveSvgAsPng } from 'save-svg-as-png';
 import { useMedia } from 'use-media';
 
@@ -137,30 +139,31 @@ const App = () => {
               type="file"
               onChange={onFileInputChange(setImageSrc)}
             />
-            <Button
+           <Button
               variant="outline"
               as="label"
               htmlFor="file-upload"
               title="Upload image"
             >
               <FaUpload />
-            </Button>
-            <Button
+            </Button> 
+
+{/*             <Button
               variant="outline"
               title="Image From URL"
               ml={3}
               onClick={() => setUrlInputVisible(!urlInputVisible)}
             >
               <FaLink />
-            </Button>
-            <Button
+            </Button> */}
+            {/* <Button
               variant="outline"
               onClick={() => setImageSrc(getRandomMeme(imageSrc))}
               ml={3}
               title="Random image"
             >
               <FaRandom />
-            </Button>
+            </Button> */}
 
             <Box mx="auto" />
 
