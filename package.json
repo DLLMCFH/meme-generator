@@ -1,8 +1,8 @@
 {
-  "name": "",
+  "name": "meme",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://st6.io/meme",
+  "homepage": "./",
   "dependencies": {
     "is-image": "3.0.0",
     "react": "16.8.6",
